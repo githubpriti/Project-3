@@ -1,0 +1,125 @@
+/* import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Edu+NSW+ACT+Foundation&family=Montserrat:ital,wght@0,300;0,900;1,400;1,500;1,700&family=Orbitron:wght@400;700&family=Oswald:wght@700&family=Poppins&family=Red+Rose:wght@700&family=Roboto:wght@400;900&family=Sansita+Swashed:wght@500;600&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Edu+NSW+ACT+Foundation&family=Montserrat:ital,wght@0,300;0,900;1,400;1,500;1,700&family=Orbitron:wght@400;700&family=Oswald:wght@700&family=Red+Rose:wght@700&family=Roboto:wght@900&family=Sansita+Swashed:wght@500;600&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Edu+NSW+ACT+Foundation&family=Montserrat:ital,wght@0,300;0,400;0,500;0,900;1,400;1,500;1,700&family=Orbitron:wght@400;700&family=Oswald:wght@700&family=Red+Rose:wght@700&family=Roboto:wght@900&family=Sansita+Swashed:wght@500;600&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+  }
+  body{
+    background-color: #2b2823;
+  }
+.container {
+    /* max-width: 130rem; */
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 119px 0 119px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 42px;
+}
+.list-group{ 
+    display: flex;
+    align-items: center;
+    gap: 42px; 
+} 
+.list{
+    display: flex;
+    align-items: center;
+    gap: 42px;
+    list-style: none;
+    color: grey;
+    margin-left: 190px;
+}
+li:nth-child(1){
+    color: #ffffff;
+    font-weight: 500;
+}
+.list li{
+    cursor: pointer;
+}
+.list li:hover{
+    color: #ffffff;
+}
+.btn-small{
+    background-color: transparent;
+    border:1px solid #a18f37 ;
+    border-radius: 10px;
+    color: #a18f37;
+    padding: 15px 27px;
+    /* font-family: "Montserrat"; */
+    font-weight: 600;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 22px;
+    cursor: pointer;
+
+}
+.hero{
+    margin-top:90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero-heading{
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 100px;
+    color:#f1f0ef;
+    width:688px ;
+}
+p{
+    color: gray;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 20px;
+     line-height: 30px;
+     width: 480px;
+}
+
+.hero-img {
+    background-image: url(./assets/pexels-ekaterina-bolovtsova-6077326.jpg);
+    height: 600px;
+    margin-top: 90px;
+    background-size: cover;
+    background-position: center;
+}
+.hero-bottom{
+    display: flex;
+    justify-content: flex-end;
+}
+.left-btn,.right-btn{
+    height: 120px;
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.left-btn{
+    background-color: #39362c;
+    color: #a18f37;
+}
+.left-btn>i{
+    font-size: 25px;
+    border: 2px solid #a18f37;
+    padding: 20px;
+    border-radius: 50%;
+}
+.right-btn{
+    background-color: #a18f37;
+    color: #ffffff;
+}
+
+.right-btn>i{
+    font-size: 25px;
+    border: 2px solid #ffffff;
+    padding: 20px;
+    border-radius: 50%;
+}
