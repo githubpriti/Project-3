@@ -1,6 +1,6 @@
-# Project 2:
+# Project 3:
 
-[Live link](http://127.0.0.1:5500/index.html)
+[Live link](https://tubular-maamoul-8288e9.netlify.app)
 
 ## Name:Vaishnavi Jaju
 
