@@ -1,6 +1,6 @@
 # Project 3:
 
-[Live link](https://tubular-maamoul-8288e9.netlify.app)
+[Live link](https://project-3-kappa-ten.vercel.app/)
 
 ## Name:Vaishnavi Jaju
 
